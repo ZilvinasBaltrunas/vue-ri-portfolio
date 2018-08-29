@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import routes from './routes'
+import '@/assets/scss/style.scss'
 // Font-awesome //
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
