@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="person-box">
-            <a href="https://www.w3schools.com" class="person">
+            <router-link class="person" :to="{name: 'Home'}">
                 <div class="person-picture">
                     <img src="../assets/images/default-person.png" alt="picture" class="picture">
                 </div>
-            </a>
+            </router-link>
         </div>
         <div class="person-content">
             <h1 class="person-name">Rima Baltrūnienė</h1>
