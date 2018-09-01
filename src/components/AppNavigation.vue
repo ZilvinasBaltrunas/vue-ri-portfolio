@@ -6,6 +6,7 @@
             <div class="social">
                 <div class="social-title">Get in touch</div>
                 <div class="social-content">
+                    <!-- add array of list -->
                     <a href="mailto:agriukas@gmail.com" class="button" title="mail: agriukas@gmail.com">
                         <font-awesome-icon icon="envelope" />
                     </a>
