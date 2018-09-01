@@ -1,25 +1,29 @@
 <template>
     <section class="page_404">
-	    <div class="four_zero_four_bg">
-		    <h1 class="h1">404</h1>
-		</div>
-		<div class="contant_box_404">
-		    <h3 class="h3">Look like you're lost</h3>
-			<p>the page you are looking for not avaible!</p>
+        <div class="four_zero_four_bg">
+            <h1 class="h1">404</h1>
+        </div>
+        <div class="contant_box_404">
+            <h3 class="h3">Look like you're lost</h3>
+            <p>the page you are looking for not avaible!</p>
             <div class="button_404">
-                <AppButton>Go to Home</AppButton>
+                <AppButton>
+                    <router-link :to="{name: 'Home'}">
+                        Go to Home
+                    </router-link>
+                </AppButton>
             </div>
-		</div>
-	</section>
+        </div>
+    </section>
 </template>
 
 <script>
 import AppButton from '@/components/AppButton.vue'
 export default {
-    name: '404Page',
-    components: {
-        AppButton
-    }
+  name: 'Page404',
+  components: {
+    AppButton
+  }
 }
 </script>
 
