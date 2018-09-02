@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'appBox'
+    name: 'AppBox'
 }
 </script>
 

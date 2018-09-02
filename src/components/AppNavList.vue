@@ -1,21 +1,21 @@
 <template>
     <nav class="navigation">
         <ul class="list">
-            <li class="list__element">
-                <router-link :to="{name: 'About'}">About Me</router-link>
-            </li>
-            <li class="list__element">
-                <router-link :to="{name: 'Qualifications'}">Qualifications</router-link>
-            </li>
-            <li class="list__element">
-                <router-link :to="{name: 'Projects'}">Projects</router-link>
-            </li>
-            <li class="list__element">
-                <router-link :to="{name: 'Gallery'}">Gallery</router-link>
+            <li v-for="li in navList" class="list__element">
+                <router-link :to="{name: li.name}">{{li.name}}</router-link>
             </li>
         </ul>
     </nav>
 </template>
+
+<script>
+export default {
+    name: 'AppNavList',
+    props: {
+        navList: Array
+    }
+}
+</script>
 
 <style lang="scss">
     .navigation {

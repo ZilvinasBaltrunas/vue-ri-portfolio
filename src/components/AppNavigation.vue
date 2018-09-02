@@ -2,7 +2,7 @@
     <aside class="sidebar">
         <div class="sidebar-inner">
             <AppPerson/>
-            <AppNavList/>
+            <AppNavList :navList="navList"/>
             <div class="social">
                 <div class="social-title">Get in touch</div>
                 <div class="social-content">
@@ -27,10 +27,28 @@ import AppNavList from '@/components/AppNavList'
 import AppPerson from '@/components/AppPerson'
 
 export default {
-    name: 'appNavigation',
+    name: 'AppNavigation',
     components: {
         AppNavList,
         AppPerson
+    },
+    data () {
+        return {
+            navList: [
+                {
+                    name: 'About'
+                },
+                {
+                    name: 'Qualifications'
+                },
+                {
+                    name: 'Projects'
+                },
+                {
+                    name: 'Gallery'
+                }
+            ]
+        }
     }
 }
 </script>
