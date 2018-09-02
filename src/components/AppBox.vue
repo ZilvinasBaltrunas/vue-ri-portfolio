@@ -5,12 +5,8 @@
 </template>
 
 <script>
-
 export default {
-    name: 'appBox',
-    components: {
-        
-    }
+    name: 'appBox'
 }
 </script>
 

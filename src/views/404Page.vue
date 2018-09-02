@@ -7,11 +7,11 @@
             <h3 class="h3">Look like you're lost</h3>
             <p>the page you are looking for not avaible!</p>
             <div class="button_404">
-                <AppButton>
-                    <router-link :to="{name: 'Home'}">
+                <router-link :to="{name: 'Home'}">
+                    <AppButton>
                         Go to Home
-                    </router-link>
-                </AppButton>
+                    </AppButton>
+                </router-link>
             </div>
         </div>
     </section>
