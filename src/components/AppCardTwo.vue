@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss">
     .card {
-        max-width: 35rem;
+        min-width: 100%;
         background: #fff;
         color: #000000;
         opacity: 0.75;

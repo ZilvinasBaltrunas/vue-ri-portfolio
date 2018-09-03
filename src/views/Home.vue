@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="home-container">
         <AppCard :data="data"/>
     </div>
 </template>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-    .container {
+    .home-container {
         margin: 2rem;
     }
 </style>

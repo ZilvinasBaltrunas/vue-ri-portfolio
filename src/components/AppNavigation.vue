@@ -6,14 +6,13 @@
             <div class="social">
                 <div class="social-title">Get in touch</div>
                 <div class="social-content">
-                    <!-- add array of list -->
-                    <a href="mailto:agriukas@gmail.com" class="button" title="mail: agriukas@gmail.com">
+                    <a href="mailto:rimabaltruniene@yahoo.com" class="button" title="mail: agriukas@gmail.com">
                         <font-awesome-icon icon="envelope" />
                     </a>
                     <a href="https://facebook.com/rima.baltruniene.9" class="button" title="facebook: rima.baltruniene.9">
                         <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/rima-baltruniene-4a0b8398/" class="button" title="linkedin: rima-baltruniene-4a0b8398">
+                    <a href="https://www.linkedin.com/in/rima-baltruniene" class="button" title="linkedin: rima-baltruniene-4a0b8398">
                         <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin' }"/>
                     </a>
                 </div>
