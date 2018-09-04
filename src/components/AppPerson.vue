@@ -3,7 +3,7 @@
         <div class="person-box">
             <router-link class="person" :to="{name: 'Home'}">
                 <div class="person-picture">
-                    <img src="../assets/images/default-person.png" alt="picture" class="picture">
+                    <img src="../assets/images/personalphoto.jpg" alt="picture" class="picture">
                 </div>
             </router-link>
         </div>
