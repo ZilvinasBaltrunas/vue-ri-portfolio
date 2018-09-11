@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    name: 'AppCard',
+    name: 'AppCardTwo',
     props: {
         data: Object
     }
@@ -18,10 +18,11 @@ export default {
 
 <style lang="scss">
     .card2 {
-        min-width: 100%;
+        width: 100%;
         background: #696969;
         color: #fff;
         opacity: 0.8;
+        border: 1rem solid #787878;
         .home__section {
             padding: 1rem;
             h1 {

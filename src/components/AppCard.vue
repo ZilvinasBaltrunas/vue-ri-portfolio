@@ -18,11 +18,11 @@ export default {
 
 <style lang="scss">
     .card {
-        max-width: 35rem;
+        width: 100%;
         background: #696969;
         color: #fff;
         opacity: 0.8;
-        // border-radius: 1rem;
+        border: 1rem solid #787878;
         .home__section {
             padding: 1rem;
             font-weight: bold;
