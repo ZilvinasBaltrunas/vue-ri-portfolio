@@ -66,7 +66,8 @@ export default {
                 {
                 date: '2010 m. vasario 10 d.',
                 title: 'UAB „Ekspertų mugė“',
-                content: 'Skelbiamų ir neskalbiamų viešųjų pirkimų vykdymo CV PIS praktika, dažniausiai daromos klaidos ir kylantys klausimai'
+                content: 'Skelbiamų ir neskalbiamų viešųjų pirkimų vykdymo CV PIS praktika, dažniausiai daromos klaidos ir kylantys klausimai',
+                link: '../assets/images/cer.jpg'
                 },
                 {
                 date: '2009 m. birželio 5-6 d.',
