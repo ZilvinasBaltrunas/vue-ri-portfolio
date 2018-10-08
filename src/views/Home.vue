@@ -15,7 +15,7 @@ export default {
         return {
             data: {
                 greetings: 'Hi, I am Rima.',
-                info: 'I work as a Project Manager of Waste Water Treatment Plant constructions.'
+                info: 'I work as a Project Manager at Waste Water Treatment Plant constructions.'
             }
         }
     }
@@ -24,6 +24,6 @@ export default {
 
 <style lang="scss">
     .home-container {
-        margin: 2rem;
+        padding: 2rem;
     }
 </style>

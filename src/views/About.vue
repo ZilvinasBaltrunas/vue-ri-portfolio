@@ -28,8 +28,6 @@ export default {
 
 <style lang="scss">
     .about-container {
-        margin: 2rem;
-        display: flex;
-        justify-content: center;
+        padding: 2rem;
     }
 </style>
